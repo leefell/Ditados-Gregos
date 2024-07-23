@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #ffcaaf;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 3em;
+    color: #1e90ff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #665;
+}
+
+#ditado {
+    font-size: 1.5em;
+    color: #4682b4;
+    margin-bottom: 20px;
+    padding: 50px;
+    border: 1px solid #add8e6;
+    border-radius: 8px;
+    background-color: #e8dada;
+}
+
+
+button {
+    font-family: 'Georgia', serif;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    color: #fff;
+    background-color: #87ceeb;
+    border: 2px solid #4682b4;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Efeito de hover */
+button:hover {
+    background-color: #00bfff;
+    border-color: #1e90ff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 0, 255, 0.5);
+}
+
+
+/* Estilo da imagem do filósofo no canto esquerdo */
+.filosofo {
+    position: absolute;
+    left: 0;
+    /* Alinha a imagem ao lado esquerdo */
+    bottom: 0;
+    /* Alinha a imagem à parte inferior da tela */
+    width: 220px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+    transform: scaleX(-1)
+}
+
+/* Estilo da imagem do filósofo no canto direito, olhando para a esquerda */
+.filosofo2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 220px;
+    height: auto;
+    margin: 10px;
+    border-radius: 8px;
+}
