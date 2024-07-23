@@ -13,3 +13,6 @@ Este projeto é uma página web simples para praticar o que venho estudando, exi
 ## Lógica:
 
 O Arquivo main.js contém um array com vários ditados gregos, onde a função `gerarDitado()` seleciona um ditado aleatório de um array com base em um índice que foi gerado de forma aleatória.
+
+## Página:
+![image](https://github.com/user-attachments/assets/e5234977-61ae-4a05-84df-b708c1287fa3)
